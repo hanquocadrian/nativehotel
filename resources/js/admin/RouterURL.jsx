@@ -47,6 +47,7 @@ const AddRoomType = lazy(() => import('./components/RoomTypes/AddRoomType/AddRoo
 
 import Login from './components/Login/Login';
 import OwnAccount from './components/myOwnAccount/OwnAccountForm';
+import YeuCau from './components/YeuCau/YeuCau';
 
 export default class RouterURL extends Component {
     render() {
@@ -57,6 +58,7 @@ export default class RouterURL extends Component {
                         <Route exact path="/admin" component={ Login }/>
 
                         <Route exact path="/admin/home" component={ Home }/>
+                        <Route exact path="/admin/yc" component={ YeuCau }/>
 
                         <Route exact path="/admin/form_own_account/:id" component={ OwnAccount }/>
 

@@ -39,7 +39,6 @@ class Booking extends Component {
                 ngayDi = {item.ngayDi}
                 soDem = {item.soDem}
                 tongTien = {item.tongTien}
-                status = {item.status}
             />
         );
         return lst;
@@ -69,7 +68,6 @@ class Booking extends Component {
                                         <th>Ngày đi</th>
                                         <th>Số đêm</th>
                                         <th>Tổng tiền</th>
-                                        <th>Status</th>
                                     </tr>
                                 </thead>
                                 <tbody className="text-center">

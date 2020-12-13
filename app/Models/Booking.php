@@ -15,8 +15,7 @@ class Booking extends Model
         'ngayDen',
         'ngayDi',
         'soDem',
-        'tongTien',
-        'status'
+        'tongTien'
     ];
 
     public function customer(){

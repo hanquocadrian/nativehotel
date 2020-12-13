@@ -10,6 +10,11 @@ use App\Models\RoomType;
 
 class RoomTypeController extends Controller
 {
+    public function yeuCau(){
+        $search = RoomType::select('tenLP')->where('slPhongTrong','>', 0)->get();
+        return $search;
+    }
+
     public function uploadFile(Request $req){
         if($req->hasFile('data')){
             $json_name_img = array();

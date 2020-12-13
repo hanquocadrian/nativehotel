@@ -113,6 +113,13 @@ export default class SidebarLeft extends Component {
                         { this.showDP() } 
                         { this.showS() }
                         { this.showAA() } 
+                        <Link to="/admin/yc">
+                            <NavItem style={{ lineHeight: "45px", borderBottom: "1px solid white"}}>
+                                <NavbarText className="navLinkItem text-light" style={{fontSize: "20px", marginLeft: "13%", paddingRight: "6%"}}>
+                                    <RiAdminFill /><div className="space-15" />Yêu Cầu
+                                </NavbarText>
+                            </NavItem>
+                        </Link>
                     </Nav>
                 </Navbar>
             </div>

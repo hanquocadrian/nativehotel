@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        '\App\Console\Commands\ChangeStatusBooking',
+        //
     ];
 
     /**
@@ -24,7 +24,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('command:changeStatusBooking')->dailyAt('11:10')->timezone('Asia/Ho_Chi_Minh');
+        // $schedule->command('inspire')->hourly();
     }
 
     /**

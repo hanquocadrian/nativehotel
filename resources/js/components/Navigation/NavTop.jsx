@@ -182,6 +182,11 @@ export default class NavTop extends Component {
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </Nav>
+                        <NavbarText>
+                            <a href="https://github.com/hanquocadrian/nativehotel.git" target="_blank">
+                                <b style={{ color: 'black', fontSize: '18px' }}>Link Source Code</b>
+                            </a>
+                        </NavbarText>  
                         <NavbarText className="icon-shopping-cart">
                             <Dropdown isOpen={this.state.toggleCart} toggle={ ()=>this.shoppingCart() }>
                                 <DropdownToggle>
